@@ -1182,7 +1182,7 @@ About Page Style
   opacity: 0.9;
 }
 
-.popular-recipes .slider-content {
+.community-recipes .slider-content {
   min-height: 100%;
   max-height: 100%;
   position: relative;
@@ -1193,23 +1193,23 @@ About Page Style
   box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
 }
 
-.popular-recipes .slider-content h2 {
+.community-recipes .slider-content h2 {
   font-size: 30px;
   margin-bottom: 30px;
 }
 
-.popular-recipes .slider-content h2 em {
+.community-recipes .slider-content h2 em {
   font-style: normal;
   color: #2CBD4C;
 }
 
-.popular-recipes .slider-content .item .thumb {
+.community-recipes .slider-content .item .thumb {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.popular-recipes .slider-content .item .thumb h4 {
+.community-recipes .slider-content .item .thumb h4 {
   position: absolute;
   left: 30px;
   bottom: 30px;
@@ -1217,17 +1217,17 @@ About Page Style
   color: #fff;
 }
 
-.popular-recipes .owl-nav {
+.community-recipes .owl-nav {
   position: absolute;
   top: -60px;
   right: 0;
 }
 
-.popular-recipes .owl-nav .owl-next span {
+.community-recipes .owl-nav .owl-next span {
   display: none;
 }
 
-.popular-recipes .owl-nav .owl-next::after {
+.community-recipes .owl-nav .owl-next::after {
   font-family: "FontAwesome";
   content: '\f061'; 
   color: #cdcdcd;
@@ -1235,11 +1235,11 @@ About Page Style
   transition: all .3s;
 }
 
-.popular-recipes .owl-nav .owl-prev span {
+.community-recipes .owl-nav .owl-prev span {
   display: none;
 }
 
-.popular-recipes .owl-nav .owl-prev::after {
+.community-recipes .owl-nav .owl-prev::after {
   font-family: "FontAwesome";
   content: '\f060'; 
   color: #cdcdcd;
@@ -1248,8 +1248,8 @@ About Page Style
   transition: all .3s;
 }
 
-.popular-recipes .owl-nav .owl-prev:hover::after,
-.popular-recipes .owl-nav .owl-next:hover::after {
+.community-recipes .owl-nav .owl-prev:hover::after,
+.community-recipes .owl-nav .owl-next:hover::after {
   color: #2CBD4C;
 }
 
